@@ -36,7 +36,7 @@ public class Ausgabe {
         document.addCreator("Laura Wolter, Marisa Keil");
     }
     
-    public void addContent(Document document) throws DocumentException{
+    public void addContentLaufen(Document document) throws DocumentException{
     	// Heading chepter 1
     	Anchor anchor = new Anchor("Fit fürs Laufen", Heading1);
         anchor.setName("Fit fürs Laufen");
@@ -58,31 +58,31 @@ public class Ausgabe {
     	
     	PdfPTable table = new PdfPTable(7);
 
-        PdfPCell c1 = new PdfPCell(new Phrase("Montag"));
+        PdfPCell c1 = new PdfPCell(new Phrase("Wochentag 1"));
         c1.setHorizontalAlignment(Element.ALIGN_CENTER);
         table.addCell(c1);
 
-        c1 = new PdfPCell(new Phrase("Dienstag"));
+        c1 = new PdfPCell(new Phrase("Wochentag 2"));
         c1.setHorizontalAlignment(Element.ALIGN_CENTER);
         table.addCell(c1);
 
-        c1 = new PdfPCell(new Phrase("Mittwoch"));
+        c1 = new PdfPCell(new Phrase("Wochentag 3"));
         c1.setHorizontalAlignment(Element.ALIGN_CENTER);
         table.addCell(c1);
         
-        c1 = new PdfPCell(new Phrase("Donnerstag"));
+        c1 = new PdfPCell(new Phrase("Wochentag 4"));
         c1.setHorizontalAlignment(Element.ALIGN_CENTER);
         table.addCell(c1);
         
-        c1 = new PdfPCell(new Phrase("Freitag"));
+        c1 = new PdfPCell(new Phrase("Wochentag 5"));
         c1.setHorizontalAlignment(Element.ALIGN_CENTER);
         table.addCell(c1);
         
-        c1 = new PdfPCell(new Phrase("Samstag"));
+        c1 = new PdfPCell(new Phrase("Wochentag 6"));
         c1.setHorizontalAlignment(Element.ALIGN_CENTER);
         table.addCell(c1);
         
-        c1 = new PdfPCell(new Phrase("Sonntag"));
+        c1 = new PdfPCell(new Phrase("Wochentag 7"));
         c1.setHorizontalAlignment(Element.ALIGN_CENTER);
         table.addCell(c1);
         

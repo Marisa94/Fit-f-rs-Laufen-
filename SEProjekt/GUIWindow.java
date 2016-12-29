@@ -229,7 +229,7 @@ public class GUIWindow extends JFrame {
                     // create Ausgabe with methods 
                     document.open();
                     Test.addMetaData(document);
-                    Test.addContent(document);
+                    Test.addContentLaufen(document);
                     Desktop.getDesktop().open(new File(FILE));
                     document.close();
 	            } catch (Exception e1) {
