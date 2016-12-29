@@ -1,4 +1,4 @@
-# Fit-f-rs-Laufen-
+# Fit-fuers-Laufen-
 Projekt für Software Engineering: Erstellung eines individuellen Trainingsplan um Laufergebnisse zu verbessern.
 
 Projektidee: 
